@@ -1,0 +1,32 @@
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.divisao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cards-dashboard {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.cards-dashboard h3 {
+  margin-bottom: 10px;
+}
+
+.cards-dashboard p {
+  font-size: 24px;
+  font-weight: bold;
+}

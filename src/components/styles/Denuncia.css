@@ -1,0 +1,36 @@
+.denuncias-container {
+  padding: 20px;
+  text-align: center;
+
+}
+
+.denuncias-list {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.denuncias-container h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.denuncia-card button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.denuncia-card button:hover {
+  background-color: #d4543e;
+}

@@ -1,0 +1,64 @@
+.denuncia-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card-details {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.denuncia-foto {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.info-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info-group p {
+  margin: 5px 0;
+}
+
+.info-group p strong {
+  color: #444;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
