@@ -1,27 +1,26 @@
-// src/components/Dashboard.js
 import React from 'react';
-import './styles/Dashboard.css'
+import './styles/Dashboard.css';
 
-function Dashboard() {
+function Dashboard({ totalDenuncias, denunciasPendentes, servicosAceitos, servicosFinalizados }) {
   return (
     <div className="dashboard">
       <h2>Dashboard</h2>
       <div className="divisao">
         <div className="cards-dashboard">
           <h3>Total de Denúncias</h3>
-          <p>120</p>
+          <p>{totalDenuncias}</p>
         </div>
         <div className="cards-dashboard">
           <h3>Denúncias Pendentes</h3>
-          <p>45</p>
+          <p>{denunciasPendentes}</p>
         </div>
         <div className="cards-dashboard">
           <h3>Serviços Aceitos</h3>
-          <p>30</p>
+          <p>{servicosAceitos}</p>
         </div>
         <div className="cards-dashboard">
           <h3>Serviços Finalizados</h3>
-          <p>25</p>
+          <p>{servicosFinalizados}</p>
         </div>
       </div>
     </div>

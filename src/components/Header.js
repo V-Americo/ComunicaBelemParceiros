@@ -5,7 +5,7 @@ function Header() {
     return(
         <header className="header">
             <h1>
-                Servpred Ambiental
+                Comunica Belém || <span>Business </span>
             </h1>
         </header>
     );

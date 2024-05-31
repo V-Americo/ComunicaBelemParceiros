@@ -1,0 +1,14 @@
+{
+    "denunciasRecentes": [
+                { "Vazamento": "Vazamento", "titulo": "Travessa Mauriti", "data": "2024-05-20", "foto": "victor.png", "rua": "Travessa Mauriti", "numero": "1006", "complemento": "Entre Everdosa e Pedro Miranda", "pontRef": "Em frente a casa da farinha", "descricao": "Vazamento está prejudicando moradores" },
+
+      { "titulo": "Vazamento na Rua B", "data": "2024-05-22", "foto": "DenunciaFcticia.jpeg", "rua": "Rua B", "numero": "456", "complemento": "", "pontRef": "", "descricao": "Vazamento está prejudicando moradores" }
+    ],
+    "denunciasDoMes": [
+      { "titulo": "Vazamento na Rua C", "data": "2024-04-15", "foto": "DenunciaFcticia.jpeg", "rua": "Rua C", "numero": "789", "complemento": "Próximo ao mercado", "pontRef": "Ponto de ônibus", "descricao": "Vazamento está prejudicando pedestres" }
+    ],
+    "denunciasMaisDeMes": [
+      { "titulo": "Vazamento na Rua D", "data": "2024-03-10", "foto": "DenunciaFcticia.jpeg", "rua": "Rua D", "numero": "101", "complemento": "Em frente ao parque", "pontRef": "Estátua do leão", "descricao": "Vazamento está afetando a entrada do parque" }
+    ]
+  }
+  

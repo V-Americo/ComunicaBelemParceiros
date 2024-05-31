@@ -1,0 +1,34 @@
+.finalizados {
+padding: 20px;
+text-align: center;
+}
+
+.finalizados h2 {
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+.servicos-list {
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.servico-card {
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 20px;
+width: 50%;
+text-align: left;
+}
+
+.servico-card h3 {
+margin-bottom: 10px;
+}
+
+.servico-card p {
+margin: 5px 0;
+}

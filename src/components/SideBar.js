@@ -10,7 +10,7 @@ function Sidebar({ onChangePage, user }) {
         <li onClick={() => onChangePage('dashboard')}>Dashboard</li>
         <li onClick={() => onChangePage('denuncias')}>Denúncias</li>
         <li onClick={() => onChangePage('servicosPegados')}>Serviços Aceitos</li>
-        <li onClick={() => onChangePage('arquivados')}>Arquivados</li>
+        <li onClick={() => onChangePage('Finalizados')}>Finalizados</li>
       </ul>
       <div className="sidebar-footer">
         <UserProfile user={user} onClick={() => onChangePage('perfil')} />

@@ -1,8 +1,7 @@
-// src/components/DenunciaCard.js
 import React, { useState } from 'react';
 import './styles/DenunciaCard.css';
 
-function DenunciaCard({ denuncia }) {
+function DenunciaCard({ denuncia, onAceitarServico }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleOpen = () => {
@@ -10,14 +9,13 @@ function DenunciaCard({ denuncia }) {
   };
 
   const handlePegarServico = () => {
-    // Lógica para pegar o serviço
-    alert('Serviço Aceito!');
+    onAceitarServico(denuncia);
   };
 
   return (
     <div className="denuncia-card">
       <div className="card-header" onClick={handleOpen}>
-        <h3>{denuncia.titulo}</h3>
+        <h3>{denuncia.Vazamento} {denuncia.titulo}</h3>
         <p>{denuncia.data}</p>
       </div>
       {isOpen && (
